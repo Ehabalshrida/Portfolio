@@ -25,8 +25,8 @@ import team1 from "assets/img/theme/team-1-800x800.jpg";
 import team2 from "assets/img/theme/team-2-800x800.jpg";
 import team3 from "assets/img/theme/team-3-800x800.jpg";
 import team4 from "assets/img/theme/team-4-800x800.jpg";
-
-// reactstrap components
+import cookiestand from "assets/img/theme/cookie-stand.PNG";
+// reactstrap components 
 import {
   Badge,
   Button,
@@ -258,15 +258,15 @@ class Landing extends React.Component {
                   <Row className="row-grid">
                     <Col lg="4">
                       <div className="card-lift--hover shadow border-0">
-                        <img className="card-img-top mb-4" src="https://github.com/Ehabalshrida/chocolate-pizza/blob/main/img/Library.PNG" alt="..." />
+                        <img className="card-img-top mb-4" src="https://raw.githubusercontent.com/Ehabalshrida/chocolate-pizza/main/img/Library.PNG" alt="..." />
                         <div className="py-5">
                           <h4 className="text-primary text-uppercase">Passion Library</h4>
-                          <p className="description mt-3">Its Online Library have Books, Stories, Novels ... etc, and ask the user to suggest books to added to the website
+                          <p className="description mt-3" style={{ width: "100px"}}>Its Online Library have Books, Stories, Novels ... etc, and ask the user to suggest books to added to the website
                           </p>
                           <p className="description mt-3"><small class="text-muted">201 final Project</small></p>
                           <a className="description mt-3 btn btn-primary"
 
-                            href="https://saja123321.github.io/personal/img/gallery/project1.PNG"
+                            href=""
                           >  Show More </a>
                         </div>
                       </div>
@@ -274,7 +274,7 @@ class Landing extends React.Component {
                     <Col lg="4">
                     <div className="card-lift--hover shadow border-0">
 
-                    <img className="card-img-top mb-4" src="https://github.com/Ehabalshrida/chocolate-pizza/blob/main/img/bus-mall.PNG" alt="..." />
+                    <img className="card-img-top mb-4" href="https://github.com/Ehabalshrida/chocolate-pizza/blob/main/img/bus-mall.PNG" alt="..." />
                      
                         <div className="py-5">
                           <h4 className="text-primary text-uppercase">Bus Mall</h4>
@@ -292,8 +292,9 @@ class Landing extends React.Component {
                     </Col>
                     <Col lg="4">
                     <div className="card-lift--hover shadow border-0">
-
-                    <img className="card-img-top mb-4" src="https://github.com/Ehabalshrida/chocolate-pizza/blob/main/img/cookie-stand.PNG" alt="..." />
+                    {/*https://github.com/Ehabalshrida/chocolate-pizza/blob/main/img/cookie-stand.PNG*/}
+                    {/*src/assets/img/photo/cookie-stand.PNG}*/}
+                    <img className="card-img-top mb-4" src={cookiestand} alt="..." />
                  
                         <div className="py-5">
                           <h5 className="text-primary text-uppercase">Cookie-Stand</h5>
