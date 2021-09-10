@@ -317,7 +317,7 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section><br/><br/><br/><br/><br/><br/>
+          </section><br/><br/><br/><br/><br/>
           <section className="section section-lg pt-lg-0 mt--200">
             <Container>
               <Row className="justify-content-center">
