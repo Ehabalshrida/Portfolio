@@ -257,27 +257,25 @@ class Landing extends React.Component {
                 <Col lg="12">
                   <Row className="row-grid">
                     <Col lg="4">
-                    <Card className="card-lift--hover shadow border-0">
-                    <img className="card-img-top mb-4" src="https://github.com/Ehabalshrida/chocolate-pizza/blob/main/img/Library.PNG" alt="..." />
                       <div className="card-lift--hover shadow border-0">
+                        <img className="card-img-top mb-4" src="https://github.com/Ehabalshrida/chocolate-pizza/blob/main/img/Library.PNG" alt="..." />
                         <div className="py-5">
                           <h4 className="text-primary text-uppercase">Passion Library</h4>
-                          <p className="description mt-3"> Its Online Library have Books, Stories, Novels ... etc, and ask the user to suggest books to added to the website                       </p>
+                          <p className="description mt-3">Its Online Library have Books, Stories, Novels ... etc, and ask the user to suggest books to added to the website
+                          </p>
                           <p className="description mt-3"><small class="text-muted">201 final Project</small></p>
                           <a className="description mt-3 btn btn-primary"
 
-                            href="https://ehabalshrida.github.io/library/"
+                            href="https://saja123321.github.io/personal/img/gallery/project1.PNG"
                           >  Show More </a>
                         </div>
                       </div>
-                       </Card>
-
                     </Col>
                     <Col lg="4">
-                    <Card className="card-lift--hover shadow border-0">
+                    <div className="card-lift--hover shadow border-0">
+
                     <img className="card-img-top mb-4" src="https://github.com/Ehabalshrida/chocolate-pizza/blob/main/img/bus-mall.PNG" alt="..." />
                      
-                      <div className="card-lift--hover shadow border-0">
                         <div className="py-5">
                           <h4 className="text-primary text-uppercase">Bus Mall</h4>
                           <p className="description mt-3"> Its an simple Application To follow the user visit on the website to use this data from another departments 
@@ -290,14 +288,13 @@ class Landing extends React.Component {
                         </div>
                       </div>
                    
-                      </Card>
 
                     </Col>
                     <Col lg="4">
-                    <Card className="card-lift--hover shadow border-0">
+                    <div className="card-lift--hover shadow border-0">
+
                     <img className="card-img-top mb-4" src="https://github.com/Ehabalshrida/chocolate-pizza/blob/main/img/cookie-stand.PNG" alt="..." />
                  
-                      <div className="card-lift--hover shadow border-0">
                         <div className="py-5">
                           <h5 className="text-primary text-uppercase">Cookie-Stand</h5>
                           <p className="description mt-3">Its a Simple application give the user the ability to determine the average of daily sales based on the average of customers ber hour
@@ -310,7 +307,6 @@ class Landing extends React.Component {
                         </div>
                       </div>
                       
-                       </Card>
 
                     </Col>
                   </Row>
