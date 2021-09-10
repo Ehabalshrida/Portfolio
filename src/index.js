@@ -66,6 +66,6 @@ ReactDOM.render(
      
       <Redirect to="/" />
     </Switch>
-  </BrowserRouter>,
+    </BrowserRouter>,
   document.getElementById("root")
 );
