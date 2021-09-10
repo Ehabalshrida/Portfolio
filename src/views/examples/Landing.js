@@ -258,7 +258,7 @@ class Landing extends React.Component {
                   <Row className="row-grid">
                     <Col lg="4">
                     <Card className="card-lift--hover shadow border-0">
-                    <img className="card-img-top mb-4" src="https://drive.google.com/file/d/1P6vdNA1k8t7faciwRqlgvA0lYZYoHsX1/view?usp=sharing" alt="..." />
+                    <img className="card-img-top mb-4" src="https://github.com/Ehabalshrida/chocolate-pizza/blob/main/img/Library.PNG" alt="..." />
                       <div className="card-lift--hover shadow border-0">
                         <div className="py-5">
                           <h4 className="text-primary text-uppercase">Passion Library</h4>
@@ -275,7 +275,7 @@ class Landing extends React.Component {
                     </Col>
                     <Col lg="4">
                     <Card className="card-lift--hover shadow border-0">
-                    <img className="card-img-top mb-4" src="https://drive.google.com/file/d/1fviY2IizzxW2uVNmyRtrvUR3Bqgzjx61/view?usp=sharing" alt="..." />
+                    <img className="card-img-top mb-4" src="https://github.com/Ehabalshrida/chocolate-pizza/blob/main/img/bus-mall.PNG" alt="..." />
                      
                       <div className="card-lift--hover shadow border-0">
                         <div className="py-5">
@@ -295,7 +295,7 @@ class Landing extends React.Component {
                     </Col>
                     <Col lg="4">
                     <Card className="card-lift--hover shadow border-0">
-                    <img className="card-img-top mb-4" src="https://drive.google.com/file/d/18E1LuaOuEWp9i6P73BDEVqTXdtJ_Wg8W/view?usp=sharing" alt="..." />
+                    <img className="card-img-top mb-4" src="https://github.com/Ehabalshrida/chocolate-pizza/blob/main/img/cookie-stand.PNG" alt="..." />
                  
                       <div className="card-lift--hover shadow border-0">
                         <div className="py-5">
