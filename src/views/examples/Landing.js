@@ -26,6 +26,9 @@ import team2 from "assets/img/theme/team-2-800x800.jpg";
 import team3 from "assets/img/theme/team-3-800x800.jpg";
 import team4 from "assets/img/theme/team-4-800x800.jpg";
 import cookiestand from "assets/img/theme/cookie-stand.PNG";
+import library from "assets/img/theme/Library.PNG";
+import busmall from "assets/img/theme/bus-mall.PNG";
+
 // reactstrap components 
 import {
   Badge,
@@ -256,25 +259,27 @@ class Landing extends React.Component {
     <Row className="justify-content-center">
                 <Col lg="12">
                   <Row className="row-grid">
-                    <Col lg="4">
-                      <div className="card-lift--hover shadow border-0">
-                        <img className="card-img-top mb-4" src="https://raw.githubusercontent.com/Ehabalshrida/chocolate-pizza/main/img/Library.PNG" alt="..." />
+                    <Col lg="">              
+                    
+                        <div className="card-lift--hover shadow border-0">
+                        <img className="card-img-top mb-4" src={library} alt="..." />
                         <div className="py-5">
                           <h4 className="text-primary text-uppercase">Passion Library</h4>
-                          <p className="description mt-3" style={{ width: "100px"}}>Its Online Library have Books, Stories, Novels ... etc, and ask the user to suggest books to added to the website
+                          <p className="description mt-3">Its Online Library have Books, Stories, Novels ... etc, and ask the user to suggest books to added to the website
                           </p>
                           <p className="description mt-3"><small class="text-muted">201 final Project</small></p>
                           <a className="description mt-3 btn btn-primary"
 
-                            href=""
+                            href="https://ehabalshrida.github.io/library/"
                           >  Show More </a>
                         </div>
-                      </div>
+                    </div>
                     </Col>
                     <Col lg="4">
+                    
                     <div className="card-lift--hover shadow border-0">
 
-                    <img className="card-img-top mb-4" href="https://github.com/Ehabalshrida/chocolate-pizza/blob/main/img/bus-mall.PNG" alt="..." />
+                    <img className="card-img-top mb-4" src={busmall} alt="..." />
                      
                         <div className="py-5">
                           <h4 className="text-primary text-uppercase">Bus Mall</h4>
@@ -286,14 +291,13 @@ class Landing extends React.Component {
                             href="https://ehabalshrida.github.io/bus-mall/"
                           >   Show More</a>
                         </div>
-                      </div>
+</div>
                    
 
                     </Col>
                     <Col lg="4">
-                    <div className="card-lift--hover shadow border-0">
-                    {/*https://github.com/Ehabalshrida/chocolate-pizza/blob/main/img/cookie-stand.PNG*/}
-                    {/*src/assets/img/photo/cookie-stand.PNG}*/}
+                    
+                    <div className="card-lift--hover shadow border-0" >
                     <img className="card-img-top mb-4" src={cookiestand} alt="..." />
                  
                         <div className="py-5">
@@ -308,7 +312,6 @@ class Landing extends React.Component {
                         </div>
                       </div>
                       
-
                     </Col>
                   </Row>
                 </Col>
